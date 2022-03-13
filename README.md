@@ -24,40 +24,40 @@ Open localhost:3000 if not already opened.
 
 Code Structure:
 
-src/
+      src/
 
-   components/ - Contains the basic presentational components
-   
-        User - User Presentational Component, Renders user in compact form.
-        
-        Address - Renders address from location attribute of the api result
-        
-        Phone - Renders the phone number, strips '-'
-        
-        UserDetails - Renders the user in detailed form, used to show the user in LightBox
+         components/ - Contains the basic presentational components
 
-  
-    hooks/ - Contains custom Hooks
-    
-        useFetch - Custom Hook to fetch data and cache it.
-        
-        usePageData - Custom Hook which loads the page specific data, and also exposes ways to increment and decrement page no.
-        
-        useSarch - Custom Hook which exposes search results
-   
-   styles/
-        styles.css - Style for whole app writen in SCSS.
-        
-            General Breakpoints Considered for Responsiveness:
-            
-                375px,
-                425px,
-                768px,
-                1024px
-                
-  userContext.js
-  
-        creates Context and ContextProvider to pass around the user data to be shown in exapanded view.
+              User - User Presentational Component, Renders user in compact form.
+
+              Address - Renders address from location attribute of the api result
+
+              Phone - Renders the phone number, strips '-'
+
+              UserDetails - Renders the user in detailed form, used to show the user in LightBox
+
+
+          hooks/ - Contains custom Hooks
+
+              useFetch - Custom Hook to fetch data and cache it.
+
+              usePageData - Custom Hook which loads the page specific data, and also exposes ways to increment and decrement page no.
+
+              useSarch - Custom Hook which exposes search results
+
+         styles/
+              styles.css - Style for whole app writen in SCSS.
+
+                  General Breakpoints Considered for Responsiveness:
+
+                      375px,
+                      425px,
+                      768px,
+                      1024px
+
+        userContext.js
+
+              creates Context and ContextProvider to pass around the user data to be shown in exapanded view.
 
 
 Maintaining the State when reloaded:
