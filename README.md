@@ -34,8 +34,8 @@ Code Structure:
 
           hooks/ - Contains custom Hooks
               useFetch - Custom Hook to fetch data and cache it.
-              usePageData - Custom Hook which loads the page specific data, and also exposes ways to increment and decrement page no.
-              useSarch - Custom Hook which exposes search results
+              usePageData - Custom Hook which loads the page specific data, and also exposes ways to increment and decrement page number.
+              useSarch - Custom Hook which exposes search results for the current page, also caches every search term and its results.
 
          styles/
               styles.css - Style for whole app writen in SCSS.
