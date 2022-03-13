@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rc-deeplinkable-pagination/static/css/main.0199d34c.css",
+    "main.js": "/rc-deeplinkable-pagination/static/js/main.ee8ac7ba.js",
+    "static/js/787.4db9a87c.chunk.js": "/rc-deeplinkable-pagination/static/js/787.4db9a87c.chunk.js",
+    "index.html": "/rc-deeplinkable-pagination/index.html",
+    "main.0199d34c.css.map": "/rc-deeplinkable-pagination/static/css/main.0199d34c.css.map",
+    "main.ee8ac7ba.js.map": "/rc-deeplinkable-pagination/static/js/main.ee8ac7ba.js.map",
+    "787.4db9a87c.chunk.js.map": "/rc-deeplinkable-pagination/static/js/787.4db9a87c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0199d34c.css",
+    "static/js/main.ee8ac7ba.js"
+  ]
+}
