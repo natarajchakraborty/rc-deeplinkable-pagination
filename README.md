@@ -49,7 +49,8 @@ Code Structure:
               creates Context and ContextProvider to pass around the user data to be shown in exapanded view.
 
 
-Maintaining the State when reloaded:
+
+**Maintaining the State when reloaded:**
 
 This is achieved by using react-route history to encode the required state in the URL. When the page reloads, the URL parameters are used to set the component state to proper state, so that the same app states gets restored.
 
