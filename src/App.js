@@ -12,9 +12,6 @@ const RANDOM_USER_API_PAGE_PARAM = "page";
 const RANDOM_USER_API_RESULTS_PARAM = "results";
 const PAGE_SIZE = 10;
 
-// 10 Make Responsive
-// 13) Refine Prop Types, Component Name, and Structure.
-
 function App() {
   const history = createBrowserHistory();
   const urlParams = new URLSearchParams(history.location.search);
